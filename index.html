@@ -97,17 +97,20 @@
     }
 
     function generateSvg() {
+      let scale = 1
       let color = generateColor()
       let hexaDecShape = generateHexaDecShape()
       return `<svg 
                   xmlns='http://www.w3.org/2000/svg' 
                   id='svg' 
-                  height='400' 
-                  width='400' 
+                  height='${400*scale}' 
+                  width='${400*scale}' 
                   color='${color}' 
                   fill='currentcolor' 
                   style='background-color: white'>
-                ${hexaDecShape}
+                <g transform='scale(${scale})'>
+                  ${hexaDecShape}
+                </g>
               </svg>`
     }
 

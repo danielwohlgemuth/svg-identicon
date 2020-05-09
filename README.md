@@ -24,3 +24,4 @@ These are some examples of it.
 ![identicon 1](images/identicon_1.png)
 ![identicon 2](images/identicon_2.png)
 ![identicon 3](images/identicon_3.png)
+![identicon 4](images/identicon_4.png)

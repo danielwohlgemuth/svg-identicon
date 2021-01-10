@@ -4,7 +4,8 @@ This proyect contains code to generate an [Identicon](https://en.wikipedia.org/w
 
 ## How to use it
 
-Open the [index.html](index.html) file with your browser.
+Open the page [https://danielwohlgemuth.github.io/projects/svg-identicon/](https://danielwohlgemuth.github.io/projects/svg-identicon/)
+or download the file [index.html](index.html) of this repository and open it with your browser.
 There will be a button to generate a different Identicon and a button to download the current Identicon as image in PNG format.
 
 ![shapes](images/index.png)
